@@ -1,0 +1,86 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    background: rgb(214, 246, 141);
+}
+
+.content{
+    display: flex;
+    margin: 35px;
+}
+
+#area {
+    width: 630px;
+    margin: 0 auto;
+    font-size: 0;
+    margin-right: 158px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: bacground .1s;
+    background-color: rgb(255, 250, 162);
+}
+
+.cell:hover{
+    background-color: rgb(232, 248, 185);
+}
+
+.caption
+{
+    font-size: 25px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.stat
+{
+    align-self: center;
+    font-size: 18px;
+    
+}
+
+.Form {
+    text-align: center;
+    margin: 10px;
+}
+
+.Form input {
+    font-size: 18px;
+}
+
+.stat table
+{
+    border-collapse: collapse;
+    width: 257px;
+    height: 400px;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.but {
+    text-align: center;
+}
+
+.but input {
+    background-color: rgb(255, 250, 162);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.but input:hover {
+    background-color: rgb(250, 244, 137);
+}
